@@ -47,7 +47,4 @@ public class AmazonWebstore extends CommonAPI {
         this.driver.findElement(By.id("fakebox-input")).sendKeys("television");
         this.driver.findElement(By.name("btnK")).click();
     }
-
-
-
 }

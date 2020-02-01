@@ -55,11 +55,12 @@ public class AmazonWebTest extends CommonAPI {
         hp.changeLanguages();
     }
 
-    /*@Test
+  /*  @Test
     public void goToCustomerService() {
         driver.get("https://amazon.com");
         AmazonWebstore hp = new AmazonWebstore();
         hp.goToAmazonCustomerService();*/
+
     @Test
     public void searchForJava(String java) {
         driver.get("https://amazon.com");
@@ -94,5 +95,5 @@ public class AmazonWebTest extends CommonAPI {
         AmazonWebstore hp = new AmazonWebstore();
         hp.searchTvs();
     }
-    
+
 }
